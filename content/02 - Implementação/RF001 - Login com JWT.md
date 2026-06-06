@@ -15,10 +15,10 @@ Guia completo: do que estudar até deploy em produção. Lê tudo antes de codar
 > [!important] Contexto novo — lê a [[00 - LEIA PRIMEIRO - Repositórios novos do professor]]
 > O backend de referência do professor (https://github.com/DjanInfo/poswebserver) **não tem login nenhum** e guarda senha em texto puro. O RF001 é o nosso maior diferencial: a gente entrega o que falta no sistema dele. O modelo de usuário abaixo é baseado no `usuarios.json` dele, mas feito direito.
 
-> [!danger] AJUSTE OS CAMINHOS — este guia foi escrito com `app/`, mas o repo do Hiago usa `back/`
+> [!danger] AJUSTE OS CAMINHOS — este guia foi escrito com `app/`, mas o repo do grupo usa `back/`
 > Onde você ler `app.` nos exemplos, troca por isto (estrutura real do `hiag-code/poswebreactdeploy`):
 >
-> | No guia (exemplos) | No repo do Hiago (use isto) |
+> | No guia (exemplos) | No repo do grupo (use isto) |
 > |---|---|
 > | `app/main.py` | `back/main.py` |
 > | `app.database` | `db.database` |

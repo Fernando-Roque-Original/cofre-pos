@@ -52,23 +52,23 @@ O `Relatorio_Desafio_5_05_2026.docx` (acompanhamento mensal pro instrutor) troux
 
 - **Instrutor:** Djan Almeida Santos (é o "DjanInfo" dos repos e o dono do `djansantos.com.br`)
 - **Stack confirmada por escrito:** a tabela de tarefas diz *"Utilização de FastAPI, SQLAlchemy"*. Acabou a dúvida — é oficial.
-- **Time de 8 pessoas:** Ana Clara Fernandes, Fernando Roque, Hiago, Tamily, Ana Clara Marinho, Milena, Nickolas, Felipe
+- **Equipe:** Grupo 5
 - **Projeto em 33%**
 - **Repo do código no relatório:** `hiag-code/poswebserver` — provavelmente é onde a gente versiona (fork do backend do professor). Confirmar.
 - **O bloqueio era acesso ao repositório:** duas tarefas ficaram travadas com *"devido à falta de acesso ao repositório"*. **Agora que temos os links, isso destravou.**
 - **Instrutor sinalizou "comunicação insatisfatória"** e criou o grupo no WhatsApp — organização também tá sendo avaliada.
 
-> [!note] Divisão de tarefas no relatório
-> - Documento de requisitos: Nickolas, Hiago, Tamily (100%)
-> - **Definição da tecnologia (FastAPI/SQLAlchemy): Fernando, Milena, Felipe (50%)**
-> - Protótipo Figma: Tamily, Ana Clara F, Ana Clara M (0%)
-> - Entendimento do problema: todos (100%)
+> [!note] Status no relatório de maio
+> - Documento de requisitos: concluído (100%)
+> - Definição da tecnologia (FastAPI/SQLAlchemy): em andamento na época (50%)
+> - Protótipo Figma: pendente (0%)
+> - Entendimento do problema: concluído (100%)
 
 ---
 
 ## Onde fica o nosso código (RESOLVIDO)
 
-O Hiago já montou a base. O nosso código vai no repositório dele, que é um **monorepo** (front + back juntos):
+A base já está montada no repositório do grupo, que é um **monorepo** (front + back juntos):
 
 > **https://github.com/hiag-code/poswebreactdeploy**
 
@@ -87,14 +87,14 @@ poswebreactdeploy/
 ```
 
 > [!success] O que já está pronto (não refazer)
-> - O `requirements.txt` — o Hiago já criou. **Não crie outro.**
+> - O `requirements.txt` — já existe no repo. **Não crie outro.**
 > - O `back/db/database.py` — conexão, `engine`, `SessionLocal`, `Base` e `get_db` já prontos.
 > - A estrutura de pastas (`models/`, `routes/`, `schemas/`, `db/`) — já existe.
 
-> [!note] "Dois tipos de arquivos pra rodar como um todo" (o que o Hiago falou)
+> [!note] "Dois tipos de arquivos pra rodar como um todo"
 > O monorepo tem dois mundos: **React** instala com `npm install` (lê o `package.json`) e **FastAPI** instala com `pip install -r requirements.txt`. Pra rodar tudo, instala os dois. O `requirements.txt` é só do lado FastAPI.
 
-Isso responde a pergunta que estava em aberto: **não precisamos de repo novo nem fork próprio** — o código FastAPI vai na pasta `back/` do repo do Hiago.
+Isso responde a pergunta que estava em aberto: **não precisamos de repo novo nem fork próprio** — o código FastAPI vai na pasta `back/` do monorepo do grupo.
 
 ---
 
@@ -114,7 +114,7 @@ Isso **não significa** que a gente vai abandonar FastAPI. A leitura que faz sen
 
 Ou seja: o repo do professor vira o nosso **mapa**. Ele já nos diz quais endpoints construir e qual o shape de cada dado. A gente reescreve em FastAPI fazendo melhor.
 
-> [!check] Já resolvido (pelo setup do Hiago)
+> [!check] Já resolvido (o repo já vem montado)
 > - ~~Onde fica nosso código?~~ → pasta `back/` do repo `hiag-code/poswebreactdeploy`
 > - ~~O React vai consumir nossa API?~~ → sim, é monorepo, front (`src/`) + back (`back/`) juntos
 >

@@ -247,8 +247,8 @@ Cria a navegação nos **dois sentidos**: `docente.turmas` (as turmas do docente
 
 ## Os models em SQLAlchemy
 
-> [!important] Caminhos no repo do Hiago
-> Os arquivos vão em **`back/models/`** (não `app/models/`) e o import do Base é **`from db.database import Base`** (o Hiago já deixou o `Base` pronto lá). O arquivo `back/models/user_model.py` já existe vazio — é onde o `Usuario` entra. Segue a convenção dele de sufixo `_model.py`.
+> [!important] Caminhos no repo do grupo
+> Os arquivos vão em **`back/models/`** (não `app/models/`) e o import do Base é **`from db.database import Base`** (o `Base` já vem pronto lá). O arquivo `back/models/user_model.py` já existe vazio — é onde o `Usuario` entra. Segue a convenção de sufixo `_model.py`.
 
 Exemplo dos principais (já com os caminhos certos):
 
@@ -423,7 +423,7 @@ if not db.query(Usuario).filter_by(email="admin@ifba.edu.br").first():
                    senha_hash=hash_password("admin123"), role="admin"))
 
 if not db.query(Aluno).filter_by(matricula="2").first():
-    db.add(Aluno(matricula="2", nome="Hiago Alves",
+    db.add(Aluno(matricula="2", nome="Maria Souza",
                  email="ha@ifba.edu.br", status="Ativo"))
 
 db.commit()

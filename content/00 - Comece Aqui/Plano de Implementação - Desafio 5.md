@@ -286,4 +286,4 @@ O frontend atual usa Firebase diretamente. Para integrar com a nova API FastAPI:
 
 ---
 
-*Nota gerada automaticamente via análise dos arquivos: Cronograma - grupo_5.xlsx, Descrição do Desafio 5.docx, TCC_Bem_Hur.pdf, TCC_Leticia.pdf e repositório pos-web.*
+*Fontes: Cronograma - grupo_5.xlsx, Descrição do Desafio 5.docx, TCC_Bem_Hur.pdf, TCC_Leticia.pdf e repositório pos-web.*

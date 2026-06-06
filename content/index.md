@@ -34,6 +34,7 @@ O que já foi construído (com explicação).
 - [[RF003 - Registro de implementação (o que fizemos)]] — o que fizemos no RF003 + aprendizados
 - [[Proteger Rotas com JWT (guia)]] — Sprint 2: o porteiro que exige o token (segurança)
 - [[Proteger Rotas - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, por que cada coisa fica onde
+- [[RF004 - Cadastro de Disciplina (guia)]] — Sprint 2: rota protegida (só admin) pra cadastrar matérias
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -42,6 +43,7 @@ Pra entender e explicar o código.
 - [[Estrutura de Pastas do Backend]] — o que cada pasta (routes, models, schemas...) faz
 - [[Conceitos Python do Código (def, return, etc)]] — cada termo do código explicado
 - [[Guia Git - comandos e fluxo seguro]] — clone/branch/push sem bagunçar a main
+- [[Quartz - publicar e atualizar o cofre como site]] — transformar o cofre num site pro grupo (e como atualizar)
 
 ## Documentos Fonte
 Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
@@ -62,7 +64,9 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | RF002 — Cadastro de Aluno (completo) | ✅ feito (4/4) |
 | RF003 — Cadastro de Docente | ✅ feito (3/3) |
 | Proteger Rotas Privadas (JWT) | ✅ feito (4/4) |
-| Cadastros: disciplina, turma, matrícula | ⏳ depois |
+| RF004 — Cadastro de Disciplina | ⏳ em andamento |
+| RF005 / RF006: turma, matrícula | ⏳ depois |
+| Site do cofre (Quartz) pro grupo | ⏳ local pronto, falta publicar |
 
 ---
 
