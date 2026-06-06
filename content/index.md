@@ -35,6 +35,7 @@ O que já foi construído (com explicação).
 - [[Proteger Rotas com JWT (guia)]] — Sprint 2: o porteiro que exige o token (segurança)
 - [[Proteger Rotas - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, por que cada coisa fica onde
 - [[RF004 - Cadastro de Disciplina (guia)]] — Sprint 2: rota protegida (só admin) pra cadastrar matérias
+- [[RF004 - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, divergências e aprendizados
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -64,7 +65,7 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | RF002 — Cadastro de Aluno (completo) | ✅ feito (4/4) |
 | RF003 — Cadastro de Docente | ✅ feito (3/3) |
 | Proteger Rotas Privadas (JWT) | ✅ feito (4/4) |
-| RF004 — Cadastro de Disciplina | ⏳ em andamento |
+| RF004 — Cadastro de Disciplina | ✅ feito (4/4) |
 | RF005 / RF006: turma, matrícula | ⏳ depois |
 | Site do cofre (Quartz) pro grupo | ⏳ local pronto, falta publicar |
 
