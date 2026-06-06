@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "pt-BR",
-    baseUrl: "https://github.com/Fernando-Roque-Original/cofre-pos",
+    baseUrl: "fernando-roque-original.github.io/cofre-pos",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
