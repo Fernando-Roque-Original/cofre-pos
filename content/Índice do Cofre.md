@@ -36,6 +36,8 @@ O que já foi construído (com explicação).
 - [[Proteger Rotas - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, por que cada coisa fica onde
 - [[RF004 - Cadastro de Disciplina (guia)]] — Sprint 2: rota protegida (só admin) pra cadastrar matérias
 - [[RF004 - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, divergências e aprendizados
+- [[RF005 - Cadastro de Turma (guia)]] — Sprint 2: rota de turma (admin) + validar FK (404)
+- [[RF006 - Efetuar Matrícula (guia)]] — Sprint 2: aluno se matricula; vagas + transação
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -66,7 +68,8 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | RF003 — Cadastro de Docente | ✅ feito (3/3) |
 | Proteger Rotas Privadas (JWT) | ✅ feito (4/4) |
 | RF004 — Cadastro de Disciplina | ✅ feito (4/4) |
-| RF005 / RF006: turma, matrícula | ⏳ depois |
+| RF005 — Cadastro de Turma | ⏳ em revisão (colega) |
+| RF006 — Efetuar Matrícula | ⏳ a fazer |
 | Site do cofre (Quartz) pro grupo | ⏳ local pronto, falta publicar |
 
 ---
