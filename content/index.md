@@ -37,7 +37,12 @@ O que já foi construído (com explicação).
 - [[RF004 - Cadastro de Disciplina (guia)]] — Sprint 2: rota protegida (só admin) pra cadastrar matérias
 - [[RF004 - Registro de implementação (o que fizemos)]] — o que usamos, como funciona, divergências e aprendizados
 - [[RF005 - Cadastro de Turma (guia)]] — Sprint 2: rota de turma (admin) + validar FK (404)
+- [[RF005 - Registro de implementação (o que fizemos)]] — o que foi feito, a revisão e os aprendizados
 - [[RF006 - Efetuar Matrícula (guia)]] — Sprint 2: aluno se matricula; vagas + transação
+- [[RF006 - Registro de implementação (o que fizemos)]] — o que usamos, aluno do token, transação
+- [[Relatórios e Exportação CSV (Sprint 3, time)]] — os relatórios do time (RF007-009) + o CSV da Ana
+- [[NF006 - Middleware de Logs de Auditoria (guia)]] — Sprint 3: o middleware "de verdade" de auditoria
+- [[NF006 - Registro de implementação (o que fizemos)]] — o middleware, o fluxo, e a lição do env.py
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -61,16 +66,18 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | Etapa | Status |
 |---|---|
 | Modelagem do banco (6 tabelas) | ✅ feito |
-| Endpoint de Aluno (versão básica) | ✅ feito |
 | RF001 — Login com JWT | ✅ feito (5/5) |
 | Alembic (migrations) | ✅ no controle do banco |
-| RF002 — Cadastro de Aluno (completo) | ✅ feito (4/4) |
+| RF002 — Cadastro de Aluno | ✅ feito (4/4) |
 | RF003 — Cadastro de Docente | ✅ feito (3/3) |
 | Proteger Rotas Privadas (JWT) | ✅ feito (4/4) |
 | RF004 — Cadastro de Disciplina | ✅ feito (4/4) |
-| RF005 — Cadastro de Turma | ⏳ em revisão (colega) |
-| RF006 — Efetuar Matrícula | ⏳ a fazer |
-| Site do cofre (Quartz) pro grupo | ⏳ local pronto, falta publicar |
+| RF005 — Cadastro de Turma | ✅ feito (4/4) |
+| RF006 — Efetuar Matrícula | ✅ feito (6/6) |
+| RF007/008/009 — Relatórios (Hiago) | ✅ feito |
+| Exportação CSV (Ana) | ✅ feito |
+| NF006 — Logs de Auditoria | ✅ feito (3/3) |
+| Site do cofre (Quartz) pro grupo | ✅ publicado |
 
 ---
 
