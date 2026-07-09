@@ -43,6 +43,8 @@ O que já foi construído (com explicação).
 - [[Relatórios e Exportação CSV (Sprint 3, time)]] — os relatórios do time (RF007-009) + o CSV da Ana
 - [[NF006 - Middleware de Logs de Auditoria (guia)]] — Sprint 3: o middleware "de verdade" de auditoria
 - [[NF006 - Registro de implementação (o que fizemos)]] — o middleware, o fluxo, e a lição do env.py
+- [[NF001 - Documentação Swagger (guia)]] — Sprint 3: polir o /docs (títulos, descrições, exemplos)
+- [[NF001 - Registro de implementação (o que fizemos)]] — o que polimos no Swagger + a verificação
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -77,6 +79,7 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | RF007/008/009 — Relatórios (Hiago) | ✅ feito |
 | Exportação CSV (Ana) | ✅ feito |
 | NF006 — Logs de Auditoria | ✅ feito (3/3) |
+| NF001 — Documentação Swagger | ✅ feito (4/4) |
 | Site do cofre (Quartz) pro grupo | ✅ publicado |
 
 ---
