@@ -82,6 +82,15 @@ Auditou o sucesso, o **login**, e até a **tentativa negada** (com o status) —
 | 2 | IP, rota, usuário (JWT), hora | dentro do middleware (`request.client.host`, `request.url.path`, `jwt.decode`, `func.now()`) |
 | 3 | Salvar na tabela de Logs | `log_model.py` + `db.add(Log(...))` |
 
+## Bônus: consultar os logs (GET /logs)
+
+Pra fechar a ferramenta, adicionamos um endpoint de consulta — assim a coordenação vê os logs pelo `/docs`, sem abrir o banco:
+
+- `schemas/log_schema.py` — `LogResponse` (o molde de saída)
+- `routes/log_routes.py` — `GET /logs` (só admin), do mais recente pro mais antigo, com `?limite=N` (default 50)
+
+Como é **GET**, o middleware **não** registra essa consulta (não polui a tabela). Testado: admin -> 200 com a lista; sem token -> 401.
+
 ## Aprendizados
 
 - **Middleware x dependency** virou prática: middleware pra "toda requisição", dependency pra "rota específica".
