@@ -45,6 +45,8 @@ O que já foi construído (com explicação).
 - [[NF006 - Registro de implementação (o que fizemos)]] — o middleware, o fluxo, e a lição do env.py
 - [[NF001 - Documentação Swagger (guia)]] — Sprint 3: polir o /docs (títulos, descrições, exemplos)
 - [[NF001 - Registro de implementação (o que fizemos)]] — o que polimos no Swagger + a verificação
+- [[RF010 e RF011 - Notícias e Editais (guia)]] — Sprint 3: notícias + editais (CRUD gêmeo, GET público / POST admin)
+- [[RF010 e RF011 - Registro de implementação (o que fizemos)]] — o que fizemos, as decisões e o teste
 
 ## 03 - Guias e Conceitos
 Pra entender e explicar o código.
@@ -80,6 +82,8 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | Exportação CSV (Ana) | ✅ feito |
 | NF006 — Logs de Auditoria | ✅ feito (3/3) |
 | NF001 — Documentação Swagger | ✅ feito (4/4) |
+| RF010 — Modelo de Notícias | ✅ feito |
+| RF011 — Modelo de Editais | ✅ feito |
 | Site do cofre (Quartz) pro grupo | ✅ publicado |
 
 ---
