@@ -40,7 +40,7 @@ O que já foi construído (com explicação).
 - [[RF005 - Registro de implementação (o que fizemos)]] — o que foi feito, a revisão e os aprendizados
 - [[RF006 - Efetuar Matrícula (guia)]] — Sprint 2: aluno se matricula; vagas + transação
 - [[RF006 - Registro de implementação (o que fizemos)]] — o que usamos, aluno do token, transação
-- [[Relatórios e Exportação CSV (Sprint 3, time)]] — os relatórios do time (RF007-009) + o CSV da Ana
+- [[RF007, RF008 e RF009 - Relatórios (registro)]] — os três relatórios (turmas/ocupação, acadêmico, matrículas) + a exportação CSV
 - [[NF006 - Middleware de Logs de Auditoria (guia)]] — Sprint 3: o middleware "de verdade" de auditoria
 - [[NF006 - Registro de implementação (o que fizemos)]] — o middleware, o fluxo, e a lição do env.py
 - [[NF001 - Documentação Swagger (guia)]] — Sprint 3: polir o /docs (títulos, descrições, exemplos)
@@ -78,8 +78,10 @@ Os arquivos originais do desafio (na pasta `Documentos Fonte/`):
 | RF004 — Cadastro de Disciplina | ✅ feito (4/4) |
 | RF005 — Cadastro de Turma | ✅ feito (4/4) |
 | RF006 — Efetuar Matrícula | ✅ feito (6/6) |
-| RF007/008/009 — Relatórios (Hiago) | ✅ feito |
-| Exportação CSV (Ana) | ✅ feito |
+| RF007 — Relatório de Turmas/Ocupação | ✅ feito |
+| RF008 — Relatório Acadêmico | ✅ feito |
+| RF009 — Relatório de Matrículas | ✅ feito |
+| Exportação CSV (relatório de turmas) | ✅ feito |
 | NF006 — Logs de Auditoria | ✅ feito (3/3) |
 | NF001 — Documentação Swagger | ✅ feito (4/4) |
 | RF010 — Modelo de Notícias | ✅ feito |
